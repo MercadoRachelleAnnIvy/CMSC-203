@@ -1,0 +1,30 @@
+import java.util.Scanner; 
+
+public class CMSC203_ACTIVITY2_MERCADO {
+  
+
+
+  
+  public static void main(String[] args) {
+    
+    float enter1;
+    float enter2;
+    float result;
+    
+    Scanner s = new Scanner(System.in);
+    
+   
+    System.out.print("First Number : ");
+    enter1 = s.nextFloat();
+    
+    System.out.print("Second Number : ");
+    enter2 = s.nextFloat();
+   
+    result = enter1 + enter2;
+    
+  
+    System.out.println(enter1 + " + " + enter2 + " = " + result);
+    
+  }
+
+}
